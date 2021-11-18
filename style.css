@@ -1,0 +1,29 @@
+
+body {
+
+    background-color: black;
+
+    backface-visibility: calc();
+
+    color: whitesmoke;
+}
+
+
+
+h1 {
+color: grey;
+}
+
+h2 {
+    color: grey;
+}
+
+h3 {
+    color: grey;
+}
+
+p {
+    color: grey;
+}
+
+
