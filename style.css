@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
+:root {
+    --primary-color: #a78bfa;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+    margin: 2rem 0rem;
 }
 
 /* container */
@@ -25,7 +33,7 @@ body {
 }
 
 .link-primary {
-    background-color: rgb(111, 111, 238);
+    background-color: var(--primary-color);
     border-radius: 0.48rem;
     color: aliceblue;
     border:black;
@@ -34,8 +42,12 @@ body {
 /* read about bem naming convection */
 
 .link-secondary {
-    background-color: rgb(111, 111, 238);
-    border-radius: 0.48rem;
-    color: aliceblue;
-    border:black;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    border: solid 0.1rem;
+    border-color:#a78bfa;
 }
+
+/*lists
+
