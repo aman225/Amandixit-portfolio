@@ -4,30 +4,38 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container-fluid {
-    padding-left: 1rem;
-    padding-right: 1rem;
+/* container */
+
+.container {
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
 }
 
 .container-center {
     max-width: 600px;
     margin: auto;
 } 
+
+/* links */
+
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
 }
 
 .link-primary {
-    background-color: var
-    (--primary-color);
-    border-radius: 0.5rem;
-    color: white;
+    background-color: rgb(111, 111, 238);
+    border-radius: 0.48rem;
+    color: aliceblue;
+    border:black;
 }
 
+/* read about bem naming convection */
+
 .link-secondary {
-    color: var(--primary-color);
-    border-radius: 00.5rem;
-    border: 1px solid var
-    (--primary-color);
+    background-color: rgb(111, 111, 238);
+    border-radius: 0.48rem;
+    color: aliceblue;
+    border:black;
 }
