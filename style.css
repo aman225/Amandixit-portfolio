@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #a78bfa;
+    --darkgrey-color:grey;
 }
 
 body {
@@ -35,18 +36,19 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.48rem;
-    color: aliceblue;
-    border:black;
+    color: white;
 }
 
 /* read about bem naming convection */
 
 .link-secondary {
-    background-color: white;
+    color: var(--primary-color);
+    background-color:white;
     border-radius: 0.5rem;
     color: var(--primary-color);
     border: solid 0.1rem;
-    border-color:#a78bfa;
+    border-color: var(--primary-color);
+
 }
 
 /*lists*/
@@ -70,17 +72,34 @@ hr {
     
 }
 
-.nav-brand{
+.navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
 }
 
-.link{
+.navigation .link{
     font-weight: bold;
     color: white;
 }
 
-.list-non-bullet {
-    text-align: right;
-    
+.navigation .list-non-bullet {
+    text-align: right;  
 }
+
+/* header */
+.hero{
+    padding: 2rem;
+}
+
+.hero .hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    padding-top: 1rem;
+    color: var(--darkgrey-color);
+    text-align: center;
+}
+
