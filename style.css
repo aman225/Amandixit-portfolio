@@ -8,6 +8,7 @@
     --primary-color: #a78bfa;
     --darkgrey-color: grey;
     --offwhite-color: #f3f4f6;
+    --top-bottom-button-color: #97CAEF;
 }
 
 
@@ -46,7 +47,12 @@ hr {
     padding: 1rem 1rem;
     margin: auto;
     margin-bottom: 2rem;
+    cursor: pointer;
 }
+
+.link:hover{
+    font-weight: bold;
+  }
 
 .link-primary {
     background-color: var(--primary-color);
@@ -179,7 +185,7 @@ hr {
     z-index: 99; /* Make sure it does not overlap */
     border: none; /* Remove borders */
     outline: none; /* Remove outline */
-    background-color: var(--color-secondary); /* Set a background color */
+    background-color: var(--darkgrey-color); /* Set a background color */
     color: rgb(5, 1, 1); /* Text color */
     cursor: default; /* Add a mouse pointe
   padding: 15px; /* Some padding */
@@ -190,5 +196,6 @@ hr {
   }
   
   #myBtn:hover {
-    background-color: var(--primary-color) /* Add a dark-grey background on hover */
+    background-color: var(--top-bottom-button-color) /* Add a dark-grey background on hover */
+    
   }
